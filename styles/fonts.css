@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+@font-face {
+    font-family: 'Kelson';
+    font-weight: 300;
+    src: url('./../fonts/KelsonSans/light/KelsonSans-Light.eot');
+    src: url('./../fonts/KelsonSans/light/KelsonSans-Light.woff') format('woff'),
+         url('./../fonts/KelsonSans/light/KelsonSans-Light.woff2') format('woff2'),
+         url('./../fonts/KelsonSans/light/KelsonSans-Light.ttf') format('truetype'),
+         url('./../fonts/KelsonSans/light/KelsonSans-Light.otf') format('opentype');
+}
+@font-face {
+    font-family: 'Kelson';
+    font-weight: 400;
+    src: url('./../fonts/KelsonSans/normal/KelsonSans-Normal.eot');
+    src: url('./../fonts/KelsonSans/normal/KelsonSans-Normal.woff') format('woff'),
+         url('./../fonts/KelsonSans/normal/KelsonSans-Normal.woff2') format('woff2'),
+         url('./../fonts/KelsonSans/normal/KelsonSans-Normal.ttf') format('truetype'),
+         url('./../fonts/KelsonSans/normal/KelsonSans-Normal.otf') format('opentype');
+}
+@font-face {
+    font-family: 'Kelson';
+    font-weight: 700;
+    src: url('./../fonts/KelsonSans/bold/KelsonSans-Bold.eot');
+    src: url('./../fonts/KelsonSans/bold/KelsonSans-Bold.woff') format('woff'),
+         url('./../fonts/KelsonSans/bold/KelsonSans-Bold.woff2') format('woff2'),
+         url('./../fonts/KelsonSans/bold/KelsonSans-Bold.ttf') format('truetype'),
+         url('./../fonts/KelsonSans/bold/KelsonSans-Bold.otf') format('opentype');
+}
