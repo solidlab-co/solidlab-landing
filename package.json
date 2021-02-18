@@ -1,0 +1,19 @@
+{
+  "name": "solidlab-landing",
+  "version": "1.0.0",
+  "description": "TODO: Add a description",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/solidlab-co/solidlab-landing.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/solidlab-co/solidlab-landing/issues"
+  },
+  "homepage": "https://github.com/solidlab-co/solidlab-landing#readme"
+}
