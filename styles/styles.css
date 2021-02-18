@@ -58,13 +58,16 @@ header.sl-trans-size .sl-nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    width: 187px;
+    width: 210px;
     height: 32px;
     border-radius: 16px;
     font-size: 14px;
     border: none;
     background-color: var(--solidBlue);
     color: var(--white);
+}
+.sl-call-to-action:focus {
+    outline: none;
 }
 /* </header-navigation> */
 
@@ -76,12 +79,17 @@ header.sl-trans-size .sl-nav {
     display: flex;
     justify-content: flex-end;
     flex-direction: column;
+    letter-spacing: -0.06em;
+    line-height: 90px;
 }
 .sl-section p {
     font-family: Kelson;
     font-weight: 700;
     color: white;
     font-size: 65px;
+}
+.sl-section .sl-button-in-section {
+    margin-top: 20px;
 }
 /* </section> */
 
@@ -92,11 +100,51 @@ footer.sl-footer {
     padding: var(--paddings);
     color: white;
 }
+.sl-footer-inner-wrapper {
+    padding-top: 48px;
+}
 .sl-footer-upside {
     display: flex;
+}
+.sl-footer-social,
+.sl-footer-information {
+    font-size: 12px;
+}
+.sl-footer-title {
+    width: 187px;
+    font-size: 10px;
+    border-bottom: var(--white) solid 1px;
+    margin-bottom: 10px;
+    padding: 4px 0;
+    letter-spacing: 1.5px;
+}
+.sl-footer-info-values {
+    line-height: 16px;
+    letter-spacing: 0.4px;
+    font-style: normal;
+    font-weight: normal;
+}
+.sl-footer-info-values a[name="email"] {
+    text-decoration: none;
+}
+div[name="social"].sl-footer-social  {
+    margin-left: 30px;
 }
 .sl-footer-social-wrapper {
     display: flex;
     list-style-type: none;
+}
+ul.sl-footer-social-wrapper li {
+    margin-right: 5px;
+}
+.sl-footer-rights-text {
+    margin-top: 50px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    opacity: 0.4;
+    letter-spacing: 0.4px;
 }
 /* </footer> */

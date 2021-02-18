@@ -18,21 +18,21 @@
       <img src="./images/logo.svg" alt="Solid lab logo" srcset="">
       <ul class="sl-nav-items">
         <li>
-          <a href="#">Servicios</a>
+          <!-- <a href="#">Servicios</a> -->
         </li>
         <li>
-          <a href="#">Nosotros</a>
+          <!-- <a href="#">Nosotros</a> -->
         </li>
         <li>
-          <a href="#">Link1</a>
+          <!-- <a href="#">Link1</a> -->
         </li>
         <li>
-          <a href="#">Link2</a>
+          <!-- <a href="#">Link2</a> -->
         </li>
       </ul>
       <button class="sl-call-to-action">
-        CALL TO ACTION
-        <img src="./images/whatsapp.svg" alt="">
+        IMPRIME TUS IDEAS
+        <img src="./images/whatsapp.svg" alt="Whatsapp icon">
       </button>
     </nav>
   </header>
@@ -47,36 +47,34 @@
     <p>
       Fabricación Digital.
     </p>
-  </section>
-  <section class="sl-section">
-    <p>
-      Impresion 3D.
-    </p>
-    <p>
-      Diseño Paramétrico.
-    </p>
-    <p>
-      Fabricación Digital.
-    </p>
+    <button class="sl-call-to-action sl-button-in-section">
+      IMPRIME TUS IDEAS
+      <img src="./images/whatsapp.svg" alt="Whatsapp icon">
+    </button>
   </section>
 
   <footer class="sl-footer">
-    <div class="row">
+    <div class="row sl-footer-inner-wrapper">
       <div class="col-8">
-        <img src="./images/logo-min.svg" alt="">
+        <div class="">
+          <img src="./images/logo-min.svg" alt="">
+        </div>
       </div>
   
       <div class="col-4 d-flex">
-        <div>
-          <p>Information</p>
-          <p>Solidlab CO</p>
-          <p>(+57) 321 9876543</p>
-          <p>(+57) 3219876543</p>
-          <a href="#">contacto@solidlab.co</a>
+        <div class="sl-footer-information" name="information">
+          <p class="sl-footer-title">INFORMACIÓN</p>
+          <div class="sl-footer-info-values">
+            <p>Solidlab CO</p>
+            <p>Medellín - Antioquia</p>
+            <p>(+57) 321 9876543</p>
+            <p>(+57) 3219876543</p>
+            <a href="#" name="email">contacto@solidlab.co</a>
+          </div>
         </div>
 
-        <div class="sl-footer-social">
-          <p>Social</p>
+        <div class="sl-footer-social" name="social">
+          <p class="sl-footer-title">SOCIAL</p>
           <ul class="sl-footer-social-wrapper">
             <li>
               <img src="./images/facebook-square.svg" alt="facebook logo">
@@ -97,8 +95,8 @@
     </div>
 
     <div class="d-flex align-items-center justify-content-center">
-      <p>
-        &#169; 2021 | Solidlab CO | Todos los derechos reservados
+      <p class="sl-footer-rights-text">
+        &#169; 2021 &nbsp;&nbsp;|&nbsp;&nbsp; Solidlab CO &nbsp;&nbsp;|&nbsp;&nbsp; Todos los derechos reservados
       </p>
     </div>
   </footer>
