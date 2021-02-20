@@ -1,3 +1,5 @@
+import "./styles/styles.scss";
+
 class OnScroll {
   constructor() {
     document.addEventListener("scroll", () => {
