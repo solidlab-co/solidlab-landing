@@ -32,7 +32,7 @@ module.exports = {
       },
     ],
   },
-  plugins: [new CleanWebpackPlugin(), new MiniCssExtractPlugin(), new HtmlWebpackPlugin({ template: "src/index.html" })],
+  plugins: [new CleanWebpackPlugin(), new MiniCssExtractPlugin(), new HtmlWebpackPlugin({ template: "src/index.html", favicon: "src/favicon.ico" })],
   devServer: {
     contentBase: path.join(__dirname, "dist"),
     compress: true,
